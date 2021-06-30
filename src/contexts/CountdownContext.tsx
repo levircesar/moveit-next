@@ -22,7 +22,7 @@ let countdownTimeout: NodeJS.Timeout;
 export function CountdownProvider({ children }: CountdownProviderProps ) {
 
     //define o tempo do contador, exx: 15 minutos.
-    const TimeCountdown = 15;
+    const TimeCountdown = 25;
 
     const { startNewChallenge } = useContext(ChallengesContext);
 
